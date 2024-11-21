@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Grid_tailwind</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link rel='stylesheet' type='text/css' media='screen' href='main.css'> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="select-none bg-white dark:bg-slate-700">
+
+    <div class="grid grid-rows-3 grid-cols-3 grid-flow-row  text-center h-screen">
+        <div class=" col-span-3 bg-indigo-200 border-solid border-2 border-indigo-600 m-2 content-center">Header</div>
+        <div class="col-span-3 md:col-span-1 row-span-1 md:row-span-3 bg-indigo-200 border-solid border-2 border-indigo-600 m-2 content-center">Menu</div>
+
+        <div class="grid row-span-1 md:row-span-1 col-span-3 md:col-span-2 grid-rows-2 grid-cols-4 grid-flow-row md:grid-flow-col">
+        <div class="row-span-2 col-span-4 md:col-span-2 bg-indigo-200 border-solid border-2 border-indigo-600 m-2  content-center">Main</div>
+        <div class="row-span-2 col-span-4 md:col-span-2 bg-indigo-200 border-solid border-2 border-indigo-600  m-2 content-center">Right</div>
+        </div>
+        <div class="row-span-2 col-span-3 md:col-span-2 bg-indigo-200 border-solid border-2 border-indigo-600 p-5 m-2 content-center">footer</div>
+      </div>
+</body>
+</html>

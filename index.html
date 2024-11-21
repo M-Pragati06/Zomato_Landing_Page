@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Zomato_Landing_Page</title>
+    <link rel="icon" type="image/x-icon" href="fevicon.png" width="20px" height="15px">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <script src='app.js'></script>
+</head>
+<body class="select-none">
+    <header>
+        <img class="absolute w-screen h-[500px]" src="Main_image.jpg" alt="food">
+        <div class="relative top-[30px] text-right right-[50px]">
+            <button class="buttons p-2 w-[70px] border-solid border-2 border-pink-300 hover:border-white hover:text-white hover:bg-pink-500 rounded-xl bg-white text-pink-500 text-sm font-medium mr-5">Login</button>
+            <button class="buttons p-2 w-[70px] border-solid border-2 border-pink-300 hover:border-white hover:text-white hover:bg-pink-500 rounded-xl bg-white text-pink-500 text-sm font-medium">Sign up</button>
+        </div>
+        <img class="relative mx-auto h-[15vh] top-[170px]" src="logo.webp " alt="">
+        <h1 class="relative text-3xl text-center top-[200px] text-white font-medium">Discover the best food & drinks in Chennai</h1>
+        <div class="relative flex text-xl  justify-center top-[250px]">
+
+            <div class="bg-white w-full sm:w-[400px] md:w-[500px] lg:w-[600px] xl:w-[700px] flex flex-wrap gap-2 p-3 border-solid border-2 border-slate-300 rounded-xl">
+                <!-- City Input -->
+                <div class="flex items-center w-full sm:w-auto">
+                    <i class="fa-solid fa-location-dot text-[20px] text-pink-400 mr-2"></i>
+                    <input class="text-sm px-3 py-1 outline-none w-full sm:w-[150px] md:w-[200px] lg:w-[250px]" type="text" placeholder="City Name">
+                </div>
+            
+                <!-- Separator -->
+                <h1 class="text-lg hidden sm:block">|</h1>
+            
+                <!-- Search Input -->
+                <div class="flex items-center w-full sm:w-auto">
+                    <i class="fa-solid fa-magnifying-glass text-[18px] mr-2"></i>
+                    <input class="text-sm px-3 py-1 outline-none w-full sm:w-[150px] md:w-[200px] lg:w-[250px]" type="text" placeholder="restaurant, cuisine or a dish">
+                </div>
+            </div>
+
+
+        </div>
+    </header>
+
+    <section class=" mt-[350px]">
+
+        <div class="speciality m-[50px] sm:mx-[150px] justify-center"> 
+        <div class=" grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[80px] mx-[10px]">    
+
+            <div class="w-[240px] h-[250px] border-solid border-2 border-slate-300 rounded-xl transition ease-out delay-10 hover:-translate-y-1 hover:scale-105 duration-300 ...">
+                    <img class="rounded-tl-xl rounded-tr-xl mx-auto w-full object-cover" src="orderfoodonline.webp" alt="">
+                <div class="text-center p-1 text-[18px]">Order food Online</div>
+            </div>
+
+            <div class="w-[240px] h-[250px] border-solid border-2 border-slate-300 rounded-xl transition ease-out delay-10 hover:-translate-y-1 hover:scale-105 duration-300 ...">
+                    <img class="rounded-tl-xl rounded-tr-xl mx-auto w-full object-cover" src="goout.webp" alt="">
+                <div class="text-center p-1 text-[18px]">Go out for a meal</div>
+            </div>
+
+            <div class="w-[240px] h-[250px] border-solid border-2 border-slate-300 rounded-xl transition ease-out delay-10 hover:-translate-y-1 hover:scale-105 duration-300 ...">
+                    <img class="rounded-tl-xl rounded-tr-xl mx-auto w-full object-cover" src="nightlife.jpg" alt="">
+                <div class="text-center p-1 text-[18px]">Night Life & Clubs</div>
+            </div>
+
+            <div class="w-[240px] h-[250px] border-solid border-2 border-slate-300 rounded-xl transition ease-out delay-10 hover:-translate-y-1 hover:scale-105 duration-300 ...">
+                    <img class="rounded-tl-xl rounded-tr-xl mx-auto w-full object-cover" src="pro.webp" alt="">
+                <div class="text-center p-1 text-[18px]">Zomato Pro</div>
+            </div>
+
+        </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="speciality m-[50px]  sm:mx-[150px]">
+            <p class="text-[40px] font-medium">Collections</p>
+            <div class=" flex flex-col lg:flex-row justify-between text-[20px] mb-4">
+                <p>Explore curated lists of top restaurants, cafes, pubs, and bars in Chennai, based on trends</p>
+                <a href="index.html" class="text-pink-500">All Collections in Chennai <i class="fa-solid fa-caret-right"></i></a>
+            </div>
+
+
+
+            
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-[80px] mx-[10px]">
+
+                <!-- Flexbox 1 -->
+                <div class="relative flex flex-col items-center bg-white shadow-lg rounded-lg overflow-hidden w-[240px] h-[250px] border-solid border-2 border-slate-300">
+                    <img src="newlyopened.jpg" alt="Image 4" class="w-full h-full object-cover">
+                    <div class="absolute bottom-0  text-black w-full text-left p-4 font-semibold">
+                        <p class="bg-white mb-2 opacity-60 p-1 rounded-lg">Newly Opened</p>
+                        <p class="bg-white opacity-60 p-1 rounded-lg">5 places <i class="fa-solid fa-caret-right"></i></p>
+                    </div>
+                </div>
+        
+                <!-- Flexbox 2 -->
+                <div class="relative flex flex-col items-center bg-white shadow-lg rounded-lg overflow-hidden w-[240px] h-[250px] border-solid border-2 border-slate-300">
+                    <img src="bestofchennai.webp" alt="Image 4" class="w-full  h-full object-cover">
+                    <div class="absolute bottom-0  text-black w-full text-left p-4 font-semibold">
+                        <p class="bg-white mb-2 opacity-60 p-1 rounded-lg">Best of Chennai</p>
+                        <p class="bg-white opacity-60 p-1 rounded-lg">85 places <i class="fa-solid fa-caret-right"></i></p>
+                    </div>
+                </div>
+        
+                <!-- Flexbox 3 -->
+                <div class="relative flex flex-col items-center bg-white shadow-lg rounded-lg overflow-hidden w-[240px] h-[250px] border-solid border-2 border-slate-300">
+                    <img src="third.jpg" alt="Image 4" class="w-full  h-full  object-cover ">
+                    <div class="absolute bottom-0 text-black w-full text-left p-4 font-semibold">
+                        <p class="bg-white mb-2 opacity-60 p-1 rounded-lg">Trending this week</p>
+                        <p class="bg-white opacity-60 p-1 rounded-lg">20 places <i class="fa-solid fa-caret-right"></i></p>
+                    </div>
+                </div>
+
+
+
+        
+
+                <!-- Flexbox 4 -->
+                <div class="relative flex flex-col items-center bg-white shadow-lg rounded-lg overflow-hidden w-[240px] h-[250px] border-solid border-2 border-slate-300">
+                    <img src="greatbuffets.jpg" alt="Image 4" class="w-full  h-full  object-cover">
+                    <div class="absolute bottom-0 text-black w-full text-left p-4 font-semibold">
+                        <p class="bg-white mb-2 opacity-60 p-1 rounded-lg">Special Offers</p>
+                        <p class="bg-white opacity-60 p-1 rounded-lg">50 places <i class="fa-solid fa-caret-right"></i></p>
+                    </div>
+                </div>
+        
+            </div>
+    
+        </div>
+      </div>
+
+      <div class="city_info mx-[2px] sm:mx-[150px] mb-[50px]">
+        <div class="justify-center text-center p-5 m-5 text-[30px] ">Popular Localities in and around Chennai</div>
+         
+        <div class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 gap-[20px] sm:gap-[30px] p-1 mx-auto md:mx-[100px]">
+            <div class="p-2 text-5 w-[170px] sm:w-[220px] md:w-[250px] lg:w-[280px] justify-center text-center border-solid border-2 border-slate-300 rounded-xl ">T.Nagar(428 Places)</div>
+            <div class="p-2 text-5 w-[170px] sm:w-[220px] md:w-[250px] lg:w-[280px] justify-center text-center border-solid border-2 border-slate-300 rounded-xl ">Numgambakkam(310 Places)</div>
+            <div class="p-2 text-5 w-[170px] sm:w-[220px] md:w-[250px] lg:w-[280px] justify-center text-center border-solid border-2 border-slate-300 rounded-xl ">velachery(466 Places)</div>  
+            <div class="p-2 text-5 w-[170px] sm:w-[220px] md:w-[250px] lg:w-[280px] justify-center text-center border-solid border-2 border-slate-300 rounded-xl ">Adyar</div>
+            <div class="p-2 text-5 w-[170px] sm:w-[220px] md:w-[250px] lg:w-[280px] justify-center text-center border-solid border-2 border-slate-300 rounded-xl ">Anna Nagar East</div>
+            <div class="p-2 text-5 w-[170px] sm:w-[220px] md:w-[250px] lg:w-[280px] justify-center text-center border-solid border-2 border-slate-300 rounded-xl ">Thuraipakkam</div>  
+            <div class="p-2 text-5 w-[170px] sm:w-[220px] md:w-[250px] lg:w-[280px] justify-center text-center border-solid border-2 border-slate-300 rounded-xl ">Mylapore</div>
+            <div class="p-2 text-5 w-[170px] sm:w-[220px] md:w-[250px] lg:w-[280px] justify-center text-center border-solid border-2 border-slate-300 rounded-xl ">Alwarpet</div>
+            <div class="p-2 text-5 w-[170px] sm:w-[220px] md:w-[250px] lg:w-[280px] justify-center text-center border-solid border-2 border-slate-300 rounded-xl ">Anna nagar West</div>
+            <div class="p-2 text-5 w-[170px] sm:w-[220px] md:w-[250px] lg:w-[280px] justify-center text-center border-solid border-2 border-slate-300 rounded-xl ">Besant Nagar</div>
+            <div class="p-2 text-5 w-[170px] sm:w-[220px] md:w-[250px] lg:w-[280px] justify-center text-center border-solid border-2 border-slate-300 rounded-xl ">Semmancheri</div>
+            <div class="p-2 text-5 w-[170px] sm:w-[220px] md:w-[250px] lg:w-[280px] justify-center text-center border-solid border-2 border-slate-300 rounded-xl ">Vadapalani</div>  
+            <div class="p-2 text-5 w-[170px] sm:w-[220px] md:w-[250px] lg:w-[280px] justify-center text-center border-solid border-2 border-slate-300 rounded-xl ">Perungudi</div>
+            <div class="p-2 text-5 w-[170px] sm:w-[220px] md:w-[250px] lg:w-[280px] justify-center text-center border-solid border-2 border-slate-300 rounded-xl ">Medavakkam</div>
+            <div class="p-2 text-5 w-[170px] sm:w-[220px] md:w-[250px] lg:w-[280px] justify-center text-center border-solid border-2 border-slate-300 rounded-xl ">Egmore</div>  
+            <div class="p-2 text-5 w-[170px] sm:w-[220px] md:w-[250px] lg:w-[280px] justify-center text-center border-solid border-2 border-slate-300 rounded-xl ">Royapetthah</div>
+            <div class="p-2 text-5 w-[170px] sm:w-[220px] md:w-[250px] lg:w-[280px] justify-center text-center border-solid border-2 border-slate-300 rounded-xl ">Shollinganallur</div>
+            <div class="p-2 text-5 w-[170px] sm:w-[220px] md:w-[250px] lg:w-[280px] justify-center text-center border-solid border-2 border-slate-300 rounded-xl ">Guindy</div>  
+            <div class="p-2 text-5 w-[170px] sm:w-[220px] md:w-[250px] lg:w-[280px] justify-center text-center border-solid border-2 border-slate-300 rounded-xl ">Kilpur</div>
+            <div class="p-2 text-5 w-[170px] sm:w-[220px] md:w-[250px] lg:w-[280px] justify-center text-center border-solid border-2 border-slate-300 rounded-xl ">Porur</div>
+            <div class="p-2 text-5 w-[170px] sm:w-[220px] md:w-[250px] lg:w-[280px] justify-center text-center border-solid border-2 border-slate-300 rounded-xl ">Kodambakkam</div>  
+            <div class="p-2 text-5 w-[170px] sm:w-[220px] md:w-[250px] lg:w-[280px] justify-center text-center border-solid border-2 border-slate-300 rounded-xl ">Gopalapuram</div>
+            <div class="p-2 text-5 w-[170px] sm:w-[220px] md:w-[250px] lg:w-[280px] justify-center text-center border-solid border-2 border-slate-300 rounded-xl ">Ashok Nagar</div>
+            <div class="p-2 text-5 w-[170px] sm:w-[220px] md:w-[250px] lg:w-[280px] justify-center text-center border-solid border-2 border-slate-300 rounded-xl ">Teynampet</div>  
+            <div class="p-2 text-5 w-[170px] sm:w-[220px] md:w-[250px] lg:w-[280px] justify-center text-center border-solid border-2 border-slate-300 rounded-xl ">Pallavaram</div>
+            <div class="p-2 text-5 w-[170px] sm:w-[220px] md:w-[250px] lg:w-[280px] justify-center text-center border-solid border-2 border-slate-300 rounded-xl ">Ramapuram</div>
+            <div class="p-2 text-5 w-[170px] sm:w-[220px] md:w-[250px] lg:w-[280px] justify-center text-center border-solid border-2 border-slate-300 rounded-xl ">RA Puram</div>
+            <div class="p-2 text-5 w-[170px] sm:w-[220px] md:w-[250px] lg:w-[280px] justify-center text-center border-solid border-2 border-slate-300 rounded-xl ">Chrompet</div>
+            <div class="p-2 text-5 w-[170px] sm:w-[220px] md:w-[250px] lg:w-[280px] justify-center text-center border-solid border-2 border-slate-300 rounded-xl ">Nellangarai</div>
+            <div class="p-2 text-5 w-[170px] sm:w-[220px] md:w-[250px] lg:w-[280px] justify-center text-center border-solid border-2 border-slate-300 rounded-xl ">Navallur(228 Places)</div>
+          </div>
+        
+      </div>
+
+    </section>
+
+
+    <footer class="bg-slate-100 w-screen">
+
+        <div class="mx-[150px] p-5 hidden lg:block">
+            <div class="flex justify-between p-5">
+            <div><img src="footer zomato.webp" alt="logo"></div>
+            <div>
+                <a class="m-3  p-1 px-[50px] border-2 border-slate-300 rounded-xl" href="index.html">India <i class="fa-solid fa-angle-down"></i></a>
+                <a class="m-3  p-1 px-[30px] border-2 border-slate-300 rounded-xl" href="index.html"><i class="fa-solid fa-globe"></i> English <i class="fa-solid fa-angle-down"></i></a>
+            </div>
+            </div>
+
+            <div class="font-mono text-slate-700  flex justify-between">
+                <div class="grid m-3">
+                    <a class="font-semibold text-slate-900" href="index.html">COMPANY</a>
+                    <a href="index.html">Who we are</a>
+                    <a href="index.html">Blog</a>
+                    <a href="index.html">Careers</a>
+                    <a href="index.html">Report Fraud</a>
+                    <a href="index.html">Contact</a>
+                </div>
+                <div class="grid m-3">
+                    <a class="font-semibold text-slate-900" href="index.html">FOR FOODIES</a>
+                    <a href="index.html">Code of Conduct</a>
+                    <a href="index.html">Community</a>
+                    <a href="index.html">Blogger Help</a>
+                    <a href="index.html">Mobile Apps</a>
+                </div>
+                <div class="grid m-3">
+                    <a class="font-semibold text-slate-900" href="index.html">FOR RESTAURANTS</a>
+                    <a href="index.html">Add Restaurant</a>
+                    <a href="index.html">Claim your listing</a>
+                    <a href="index.html">Business App</a>
+                    <a href="index.html">Restaurant Widgets</a>
+                    <a href="index.html">Product for Businesses</a>
+                </div>
+                <div class="grid m-3">
+                    <a class="font-semibold text-slate-900" href="index.html">FOR YOU</a>
+                    <a href="index.html">Privacy</a>
+                    <a href="index.html">Terms</a>
+                    <a href="index.html">security</a>
+                    <a href="index.html">Sitemap</a>
+                </div>
+                <div class="grid m-3">
+                    <a class="font-semibold text-slate-900" href="index.html">SOCIAL LINKS</a>
+                    <div class="justify-start">
+                        <a class="mx-[8px] m-3 text-3xl" href="index.html"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a class="mx-[8px] m-3 text-3xl" href="index.html"><i class="fa-brands fa-square-twitter"></i></a>
+                        <a class="mx-[8px] m-3 text-3xl" href="index.html"><i class="fa-brands fa-square-instagram"></i></a>
+                    </div>
+                    <a href="index.html"><img class="w-[150px] h-[40px] m-1" src="app store.webp" alt="app_store"></a>
+                    <a href="index.html"><img class="w-[150px] h-[40px] m-1" src="google play.webp" alt="playstore"></a>
+                </div>
+            </div>
+
+            <hr class="h-[2px] mt-4 bg-gray-400 border-0 dark:bg-gray-700">
+            <div>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2024-2030 © Zomato™ Pvt Ltd. All rights reserved.</div>
+        </div>
+
+        <div class="mx-auto px-[20%] justify-center text-center block lg:hidden">
+            <div class="mb-[20px] pl-[60px]"><img class="w-[70%]" src="footer zomato.webp" alt="logo"></div>
+            <div><a class=" text-3xl" href="index.html">SOCIAL LINKS</a></div>
+            <div class="justify-center mt-[20px]">
+                <a class="mx-[8px] m-3 text-5xl" href="index.html"><i class="fa-brands fa-square-facebook"></i></a>
+                <a class="mx-[8px] m-3 text-5xl" href="index.html"><i class="fa-brands fa-square-twitter"></i></a>
+                <a class="mx-[8px] m-3 text-5xl" href="index.html"><i class="fa-brands fa-square-instagram"></i></a>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>

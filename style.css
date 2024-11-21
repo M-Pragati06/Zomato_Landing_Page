@@ -1,0 +1,10 @@
+@media screen and (min-width: 410px) {
+    section .speciality {
+      margin:70px;
+    }
+
+    section .city_info{
+        margin-left: 12px;
+        margin-right: 12px;
+    }
+  }
